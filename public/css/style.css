@@ -1,3 +1,9 @@
+@media only screen and (min-width: 768px) {
+    .navbar-nav>li{
+        float:right;
+    }
+
+}
 @font-face {
   font-family: "B Yekan",'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -21,6 +27,7 @@ body {
   background: #fff;
   height: 100%;
   position: relative;
+    direction: rtl;
 }
 
 a {
@@ -33,6 +40,8 @@ a:hover, a:active, a:focus {
   color: #52d3aa;
   outline: none;
 }
+
+
 
 p {
   margin-bottom: 1.5em;
